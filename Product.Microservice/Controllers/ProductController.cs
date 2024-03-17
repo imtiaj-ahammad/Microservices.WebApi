@@ -12,7 +12,7 @@ namespace Product.Microservice.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Pvalue1", "Pvalue2" };
         }
 
         // GET api/<ProductController>/5
